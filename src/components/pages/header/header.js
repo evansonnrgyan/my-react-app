@@ -30,7 +30,11 @@ class Header extends Component {
                     <div className="info-box">
                         <span onClick={this.userInfoFn}><Icon type="user" theme="outlined" />{this.state.userName}</span>
                     </div>
-                    <div className="user-options"></div>
+                    <div className="user-options">
+                        <ul>
+                            <li>退出</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         )
